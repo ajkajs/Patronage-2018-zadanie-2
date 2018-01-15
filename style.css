@@ -1,0 +1,129 @@
+.moviesCounter {
+	font-weight: 600;
+}
+
+.moviesListContainer {
+	margin-top: 100px;
+}
+
+#moviesCountersContainer {
+	text-align: right;
+	margin: 0 10px 0 0;
+}
+
+.moviesList {
+    width: 800px;
+    margin: auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.moviesList li {
+	padding: 30px;
+	margin-top: 20px;
+	box-shadow: 10px 11px 15px #808080;
+	background-color: #fff;
+}
+
+body {
+	background-color: #f0f5f5;
+	font-family: verdana;
+	color: #000;
+}
+
+.link {
+	color: #008000;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+form {
+	width: 650px;
+	height: 400px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+form .row .summary {
+	border: 1px solid #000;
+}
+
+.heading {
+	text-align: center;
+	margin: 10px 0 40px 0;
+}
+
+label {
+	width: 100px;
+	float: left;
+	text-align: right;
+	padding:0 16px 0 0;
+}
+
+input {
+	font-size: 15px;
+	border: 1px solid #000;
+}
+
+textarea {
+}
+
+.title {
+	width: 513px;
+}
+
+.summary {
+	width: 513px;
+	height: 100px;
+	font-size: 15px;
+
+}
+
+.id, .genre, .year {
+	width: 80px;
+}
+
+.add {
+	cursor: pointer;
+	font-size: medium;	
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.container input {
+	margin:0 15px 0 0;
+}
+
+.row {
+	margin:10px 0;
+
+}
+
+.row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.radioLabel {
+	float: left;
+	margin: 10px 0 10px 53px;
+}
+
+.withRadios label {
+	width: 68px;
+	margin: 10px 0;
+}
+
+.withSubmit {
+	margin: 0 20px 0 0;
+	float: right;
+}
+
+.moviesList li:hover {
+	text-decoration: underline;
+}

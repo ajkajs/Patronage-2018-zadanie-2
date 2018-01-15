@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<a class="link" href="index.html">See the list of movies</a>
+		<div id="moviesCountersContainer">
+    		<p>All: <span class="moviesCounter" id="anotherMoviesCounterAll"></span></p>
+   	 		<p>Viewed: <span class="moviesCounter" id="anotherMoviesCounterSeen"></span></p>
+		</div>
+		<div id="formContainer">
+			<form>
+				<h1 class="heading">Add a movie</h1>
+				<div class="container row">
+					<label for="id">Id:</label><input type="text" name="id" class="id">
+					<label for="year">Year:</label><input type="text" name="year" class="year">
+					<label for="genre">Genre:</label><input type="text" name="genre" class="genre">
+				</div>
+				<div class="row">
+					<label for="title">Title:</label><input type="text" name="title" class="title">
+				</div>
+				<div class="row">
+					<label for="summary">Summary:</label><textarea type="text" name="summary" class="summary"></textarea>
+				</div>
+				<div class="row withRadios">
+					<span class="radioLabel">Seen: </span>
+					<label for="true">
+						<input type="radio" name="seen" class="seen" value="T">True
+					</label>
+					<label for="false">
+						<input type="radio" name="seen" class="seen" value="F">False
+					</label>
+				</div>	
+				<div class="row withSubmit">
+					<input type="submit" name="add" value="Add movie" class="add">
+				</div>
+			</form>
+		</div>
+		<script type="module" src="movies-storage.js" ></script>
+		<script type="module" src="movies-counter.js"></script>
+		<script type="module" src="add.js"></script>
+	</body>
+</body>
